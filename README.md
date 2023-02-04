@@ -19,6 +19,8 @@ you can also use the "-a" option, to make the tool generate every possible CIDR 
 For 10.0.5.78 that would be :
 ['10.0.0.0/8','10.0.0.0/16','10.0.5.0/24','10.0.5.78/32','10.0.0.0/9','10.0.0.0/10','10.0.0.0/11','10.0.0.0/12','10.0.0.0/13','10.0.0.0/14','10.0.0.0/15','10.0.0.0/17','10.0.0.0/18','10.0.0.0/19','10.0.0.0/20','10.0.0.0/21','10.0.4.0/22','10.0.4.0/23','10.0.5.0/25','10.0.5.64/26','10.0.5.64/27','10.0.5.64/28','10.0.5.72/29','10.0.5.76/30','10.0.5.78/31']
 
+By default, the tool uses Default profile AWS CLI credentials, but you can also provide other keys with "-id" and "-secret"
+
 ## Usage
 
 ```usage: SweetCIDR.py [-h] [-s S] [-a] [-nz] [-O O] [-Fn FN] [-alias ALIAS] [-id ID] [-secret SECRET] [-assume ASSUME]
