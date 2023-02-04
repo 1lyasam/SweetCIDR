@@ -84,7 +84,8 @@ PublicIp        PrivateIp        privateIp  Ports
 Saved Excel file to 0-0-0-0_11.xlsx
 Saved CSV file to 0-0-0-0_11.csv
 ```
-``` CSV result example - 
+###CSV output example -
+```  
 PublicIp	PrivateIp	instanceId	securityGroupId	groupDescription	Ports	protocol
 54.**.**.166	172.31.36.249	ELB app/test-sweetcidr/350*************	sg-04b*************	Allows access to management panel	81	tcp
 54.**.**.166	172.31.36.249	ELB app/test-sweetcidr/350*************	sg-04b*************	Allows access to management panel	80	tcp
