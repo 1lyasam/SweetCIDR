@@ -97,7 +97,7 @@ def generate_subnets(ip_address, ignore_first_0=True, all_subnets=False):
 
 def scan_cidr (cidr, account):
     results_local_scan = []
-    print("Scaning now CIDR: " + cidr)
+    print("Scanning now CIDR: " + cidr)
     # Describe all Regions in the account
     try:
         if assume:
