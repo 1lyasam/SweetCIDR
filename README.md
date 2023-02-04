@@ -4,15 +4,15 @@ An AWS SDK based tool for mapping network components which are accessible for a 
 ## Description
 SweetCIDR will take a CIDR value like (10.0.0.1/24 OR 0.0.0.0/0) as an input.
 The tool will search for all inbound rules in all security groups which use this CIDR to allow traffic.
-It than will find all the attached network intefaces to all of those security groups and as result will provide a detailed report.
-The report will containe information about all the possible "targets" for this CIDR.
+It then will find all the attached network interfaces to all of those security groups and as result will provide a detailed report.
+The report will contain information about all the possible "targets" for this CIDR.
 Information such as: 
   1. Destination public\private IP (depends on the input)
   2. InstanceId \ Or other resource information in cases like load balancer
   3. Port\s (Port or range of ports or "All")
   4. Protocol
 
-You can also use Ipv4 address as an input. than the tool will try generate CIDR variations of this IP.
+You can also use Ipv4 address as an input. then the tool will try to generate CIDR variations of this IP.
 for example for 10.0.5.78 - the tool will try to search for [10.0.5.78/32, 10.0.5.0/24,  10.0.0.0/16, 10.0.0.0/8].
 you can also use the "-a" option, to make the tool generate every possible CIDR the this address belongs to.
 
