@@ -1,5 +1,5 @@
 # SweetCIDR
-An AWS SDK based tool for mapping network components which are accessible for a given CIDR or Ipv4 address.
+An AWS SDK based tool for mapping network components which are accessible for a given CIDR or Ipv4 address by searching the CIDR in security groups
 
 ## Description
 SweetCIDR will take a CIDR value like (10.0.0.1/24 OR 0.0.0.0/0) as an input.
