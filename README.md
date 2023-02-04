@@ -40,6 +40,9 @@ optional arguments:
   -assume ASSUME  AWS role name or ARN (for foreign account) to assume. if STS assume is needed
 
 ```
+## Installation
+Just install the requirments with 
+ ``` pip install -r requirements.txt ```
 
 ## Examples
 
@@ -94,4 +97,3 @@ PublicIp	PrivateIp	instanceId	securityGroupId	groupDescription	Ports	protocol
 ```
 
 
-## Installation
