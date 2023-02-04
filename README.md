@@ -79,5 +79,17 @@ PublicIp        PrivateIp        privateIp  Ports
 Saved Excel file to 0-0-0-0_11.xlsx
 Saved CSV file to 0-0-0-0_11.csv
 ```
+``` CSV result example - 
+PublicIp	PrivateIp	instanceId	securityGroupId	groupDescription	Ports	protocol
+54.**.**.166	172.31.36.249	ELB app/test-sweetcidr/350*************	sg-04b*************	Allows access to management panel	81	tcp
+54.**.**.166	172.31.36.249	ELB app/test-sweetcidr/350*************	sg-04b*************	Allows access to management panel	80	tcp
+54.**.**.166	172.31.36.249	ELB app/test-sweetcidr/350*************	sg-04b*************	Allows access to management panel	9005	tcp
+34.**.**.43	172.31.38.122	i-052*************	sg-0bc*************	launch-wizard created 2023-01-31T23:36:15.673Z	22	tcp
+18.**.**.6	172.31.29.82	i-061*************	sg-055*************	launch-wizard-1 created 2023-01-31T23:33:56.724Z	80	tcp
+18.**.**.6	172.31.29.82	i-061*************	sg-055*************	launch-wizard-1 created 2023-01-31T23:33:56.724Z	3389	tcp
+34.**.**.125	172.31.31.3	i-042*************	sg-061*************	launch-wizard-1 created 2022-12-12T04:41:47.456Z	22	tcp
+34.**.**.125	172.31.31.3	i-042*************	sg-061*************	launch-wizard-1 created 2022-12-12T04:41:47.456Z	8000	tcp
+```
+
 
 ## Installation
