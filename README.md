@@ -87,14 +87,14 @@ Saved CSV file to 0-0-0-0_11.csv
 ### CSV output example -
 ```  
   account      PublicIp        PrivateIp      CIDR       instanceId                               region        securityGroupId       groupDescription                                  Ports  allowingRul>
-0  AWS account  54.**.**.166  172.31.36.249  0.0.0.0/0  ELB app/test-sweetcidr/350*************  eu-west-1     sg-04b7cb7eca4309f02  Allows access to management panel                 81     "{'FromPort>
-1  AWS account  54.**.**.166  172.31.36.249  0.0.0.0/0  ELB app/test-sweetcidr/350*************  eu-west-1     sg-04b7cb7eca4309f02  Allows access to management panel                 80     "{'FromPort>
-2  AWS account  54.**.**.166  172.31.36.249  0.0.0.0/0  ELB app/test-sweetcidr/350*************  eu-west-1     sg-04b7cb7eca4309f02  Allows access to management panel                 9005   "{'FromPort>
-3  AWS account  34.**.**.43   172.31.38.122  0.0.0.0/0  i-052**************                      eu-west-1     sg-0bcc743c9ea44937f  launch-wizard created 2023-01-31T23:36:15.673Z    22     "{'FromPort>
-4  AWS account  18.**.**.6    172.31.29.82   0.0.0.0/0  i-061**************                      eu-central-1  sg-0556156136cc199f0  launch-wizard-1 created 2023-01-31T23:33:56.724Z  80     "{'FromPort>
-5  AWS account  18.**.**.6    172.31.29.82   0.0.0.0/0  i-061**************                      eu-central-1  sg-0556156136cc199f0  launch-wizard-1 created 2023-01-31T23:33:56.724Z  3389   "{'FromPort>
-6  AWS account  34.**.**.125   172.31.31.3    0.0.0.0/0  i-042**************                      us-east-1     sg-061f9aa415e6da079  launch-wizard-1 created 2022-12-12T04:41:47.456Z  22     "{'FromPort>
-7  AWS account  34.2**.**.125   172.31.31.3    0.0.0.0/0  i-042**************                      us-east-1     sg-061f9aa415e6da079  launch-wizard-1 created 2022-12-12T04:41:47.456Z  8000   "{'FromPort
+0  AWS account  54.**.**.166  172.31.36.249  0.0.0.0/0  ELB app/test-sweetcidr/350*************  eu-west-1     sg-04b**************  Allows access to management panel                 81     "{'FromPort>
+1  AWS account  54.**.**.166  172.31.36.249  0.0.0.0/0  ELB app/test-sweetcidr/350*************  eu-west-1     sg-04b**************  Allows access to management panel                 80     "{'FromPort>
+2  AWS account  54.**.**.166  172.31.36.249  0.0.0.0/0  ELB app/test-sweetcidr/350*************  eu-west-1     sg-04b**************  Allows access to management panel                 9005   "{'FromPort>
+3  AWS account  34.**.**.43   172.31.38.122  0.0.0.0/0  i-052**************                      eu-west-1     sg-0bc**************  launch-wizard created 2023-01-31T23:36:15.673Z    22     "{'FromPort>
+4  AWS account  18.**.**.6    172.31.29.82   0.0.0.0/0  i-061**************                      eu-central-1  sg-055**************  launch-wizard-1 created 2023-01-31T23:33:56.724Z  80     "{'FromPort>
+5  AWS account  18.**.**.6    172.31.29.82   0.0.0.0/0  i-061**************                      eu-central-1  sg-055**************  launch-wizard-1 created 2023-01-31T23:33:56.724Z  3389   "{'FromPort>
+6  AWS account  34.**.**.125   172.31.31.3    0.0.0.0/0  i-042**************                      us-east-1     sg-061**************  launch-wizard-1 created 2022-12-12T04:41:47.456Z  22     "{'FromPort>
+7  AWS account  34.2**.**.125   172.31.31.3    0.0.0.0/0  i-042**************                      us-east-1    sg-061**************  launch-wizard-1 created 2022-12-12T04:41:47.456Z  8000   "{'FromPort
 ```
 
 
